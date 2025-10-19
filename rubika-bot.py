@@ -7,7 +7,7 @@
 import os, json, time, requests
 from typing import Optional, Dict, Any
 
-TOKEN = "EABBE0EKDIDVJFQEPLBKVCXCMDFCWMFIBMQPYCNUUNLAGXFHZYYUIDABSNKCFQZN"
+TOKEN = "RUBIKA_TOKEN"
 BASE  = f"https://botapi.rubika.ir/v3/{TOKEN}"
 OFFSET_FILE = "rubika_offset.json"
 SKIP_BACKLOG_ON_FIRST_RUN = True
@@ -246,6 +246,7 @@ def run():
 
 if __name__ == "__main__":
     run()
+
 
 
 
